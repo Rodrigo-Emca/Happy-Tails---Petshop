@@ -1,0 +1,330 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/*form de contacto*/
+
+#aboutUs {
+  margin: 3rem;
+  text-align: justify;
+}
+
+.form-content {
+  color: #db9345;
+  display: flex;
+  justify-content: center;
+  min-height: 50rem;
+  width: 100vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.formFinalDiv input {
+  display: flex;
+  background-color: #db9345;
+  border: solid 2px #ffffff;
+  display: flex;
+  align-self: center;
+}
+
+.select-op {
+  appearance: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  background-color: rgb(224, 224, 224);
+  margin: 0.3rem;
+}
+
+.form-tot {
+  background-color: #24492e;
+  min-width: 55vw;
+  border: solid 4px #db9345;
+  border-style: double;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innerDivsForm {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  min-height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formFinalDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#boxMensaje {
+  min-width: 50vw;
+  min-height: 10vh;
+}
+
+#botonEnviar {
+  margin-top: 1rem;
+}
+
+#cards-mod {
+  border: solid 2px #db9345;
+
+  border-radius: 0.5rem;
+}
+
+.buttons-card {
+  background-color: #24492e;
+  border: solid 2px #db9345;
+  color: #dbfdff;
+}
+
+.form-content h3 {
+  text-align: center;
+  margin: 1.5rem;
+  font-weight: bolder;
+  color: #db9345;
+}
+
+.nav-link {
+  color: #406646;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-weight: bolder;
+}
+
+input {
+  appearance: none;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  background-color: rgb(224, 224, 224);
+  margin: 0.3rem;
+}
+
+header {
+  /* padding: 1rem !important; */
+  min-height: 15vh;
+  border-bottom: 2px rgba(76, 66, 66, 0.197) solid !important;
+  background-color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+#carrito:hover {
+  transform: scale(1.15);
+}
+
+#logo:hover {
+  transform: scale(1.25);
+  transform: rotate(-15deg);
+}
+
+#titulosPag {
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#carrousel {
+  padding-top: none;
+}
+
+.carrouselImagenes {
+  max-height: 85vh !important;
+  object-fit: cover;
+}
+
+.carousel-text {
+  color: black;
+  /*  box-shadow:  60px -16px teal; */
+  /*  text-shadow: -2px 5px 0px #2989FF; */
+  text-shadow: 5px 0px 20px #dbfdff;
+  font-size: 2rem;
+}
+
+.logo-carousel {
+  position: relative;
+  z-index: 3;
+  padding-top: 6rem;
+  left: 2rem;
+  width: 12rem;
+}
+
+/* tarjeta about us */
+.texto-tarjeta-main {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+.colorBotones {
+  background-color: #24492e !important;
+  color: white;
+}
+
+/* Jugueteria y Farmacia */
+
+.cards-jf {
+  box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+  border: solid 0.1rem #24492e;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.793),
+      rgba(255, 255, 255, 0.793)
+    ),
+    url("https://media.discordapp.net/attachments/1056957879162261686/1077013443502153789/depositphotos_51352101-stock-illustration-background-with-dog-paw-print.jpg");
+  height: 29rem;
+}
+.titulos {
+  padding-top: 0.5rem;
+  color: #406646;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+#tarjetasJugueteriaYFarmacia {
+  padding: 2rem;
+  gap: 2rem;
+  /* border: solid red 2px; */
+}
+
+.card-title {
+  min-height: 3.3rem;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-weight: bolder;
+}
+.card-img {
+  object-fit: contain;
+  object-position: center;
+}
+.precioStock {
+  height: 7rem;
+}
+
+.contenedorBotones {
+  height: 10%;
+}
+.modal-jf {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.793),
+      rgba(255, 255, 255, 0.793)
+    ),
+    url("https://media.discordapp.net/attachments/1056957879162261686/1077013443502153789/depositphotos_51352101-stock-illustration-background-with-dog-paw-print.jpg");
+}
+.modal-titulo-div {
+  text-align: center !important;
+}
+.modal-titulo {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-weight: bold;
+  text-align: center !important;
+}
+#tarjetaIndividual {
+  padding: 1.5rem !important;
+  border: solid 0.1rem #24492e;
+  box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+}
+
+.tarjetaIndividual-img {
+  border-radius: 0.4rem !important;
+}
+hr {
+  height: 2px;
+  margin-bottom: 3rem;
+  width: 100%;
+
+  border: none;
+}
+.cont-about {
+  display: flex;
+  justify-content: center;
+}
+.card-body-about p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.3rem;
+}
+footer {
+  background-color: rgb(250, 250, 250);
+  border-top: solid 2px #24492e;
+  min-height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2rem;
+}
+.mapa {
+  border-radius: 0.4rem;
+  box-shadow: 13px 13px 26px #afafaf, -13px -13px 26px #ffffff;
+}
+
+/* Shop */
+.tableContainer{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem 3rem 0rem;
+}
+
+#table {
+  max-width: 90vw;
+}
+
+.encabezadoShop{
+  background-color: #24492e;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+
+.shopProductoImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imgShop {
+  height: 6rem;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .logo-carousel {
+    position: absolute;
+    z-index: 3;
+    top: 3rem;
+    left: 2rem;
+    /*  border: 2px solid red; */
+    width: 6rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 15vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logo-carousel {
+    position: absolute;
+    z-index: 3;
+    top: 3rem;
+    left: 2rem;
+    /*  border: 2px solid red; */
+    width: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-carousel {
+    position: absolute;
+    z-index: 3;
+    top: 3rem;
+    left: 2rem;
+    /*  border: 2px solid red; */
+    width: 12rem;
+  }
+  #anchor:hover {
+    transform: scale(1.25);
+  }
+}
